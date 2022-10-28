@@ -2,7 +2,7 @@ const loadBtn = document.querySelector(".js-load");
 const resultsContainer = document.querySelector(".js-results");
 const searchInput = document.querySelector(".js-input");
 
-document.getElementsByTagName("form")[0, 1].addEventListener("submit", function (event) {
+document.getElementsByTagName("form")[0].addEventListener("submit", function (event) {
   event.preventDefault();
 })
 const startForPlaceholders = document.getElementById("startForUsers");
